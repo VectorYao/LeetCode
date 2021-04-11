@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94d767f1-745b-41b2-ab3d-2c48015256e4" name="Default Changelist" comment="" />
+    <list default="true" id="94d767f1-745b-41b2-ab3d-2c48015256e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_1710_MaximumUnitsOnATruck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_1710_MaximumUnitsOnATruck.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/place/yao/demo/Test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -38,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_1710_MaximumUnitsOnATruck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="340">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -176,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/place/yao/code/C_167_TwoSumII.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/place/yao/code/E_69_Sqrt.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_69_Sqrt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_1710_MaximumUnitsOnATruck.java" />
       </list>
     </option>
   </component>
@@ -292,7 +295,7 @@
     <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618157860084" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1618158845163" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
@@ -442,18 +445,17 @@
       <workItem from="1616752413289" duration="2138000" />
       <workItem from="1616988983882" duration="9000" />
       <workItem from="1618049041430" duration="6121000" />
-      <workItem from="1618131669973" duration="4278000" />
+      <workItem from="1618131669973" duration="5058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40836000" />
+    <option name="totallyTimeSpent" value="41616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="62" width="1275" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28304946" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28304946" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,15 +464,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.51874065" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51874065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988006" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3298351" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298351" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32846716" />
       <window_info anchor="bottom" id="Sequence" order="13" />
@@ -613,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/place/yao/demo/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -651,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_1710_MaximumUnitsOnATruck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="340">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
         </state>
       </provider>
     </entry>
