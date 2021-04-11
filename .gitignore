@@ -4,6 +4,13 @@
 # Log file
 *.log
 
+
+# custom
+/target
+/src/main/com/place/yao/demo
+/src/main/com/place/yao/plantUML
+/src/main/com/place/yao/uniqShopTYpe
+
 # BlueJ files
 *.ctxt
 
