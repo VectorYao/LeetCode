@@ -4,13 +4,6 @@
 # Log file
 *.log
 
-
-# custom
-/target
-/src/main/com/place/yao/demo
-/src/main/com/place/yao/plantUML
-/src/main/com/place/yao/uniqShopTYpe
-
 # BlueJ files
 *.ctxt
 
@@ -28,3 +21,8 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# custom
+/src/main/java/com/place/yao/demo/
+/src/main/java/com/place/yao/uniqShopType/
+/target/
