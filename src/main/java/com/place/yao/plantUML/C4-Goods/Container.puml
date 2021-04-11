@@ -1,0 +1,30 @@
+@startuml Container
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+
+title 商品系统容器图-CONTAINER
+LAYOUT_WITH_LEGEND()
+
+Person(主站商家, "主站商家", "")
+Person(有赞云商家, "有赞云商家", "")
+Person(销售, "销售", "")
+Person(财务, "财务", "")
+
+System(商家后台, "商家后台", "WSC-PC-SUBSCRIBE")
+System(运营后台, "运营后台", "BIZ-CONSOLE")
+System(商业化前台系统, "商业化前台系统", "[YOP]")
+System_Ext(CRM系统, "CRM系统", "商家订购的业绩计算")
+System_Ext(财务系统, "财务系统", "商家订购的返佣计算")
+ContainerDb(系统基础设施, "系统基础设施", "MySQL/KVDS","存储所有的商品数据，包括软件、插件及套餐等。")
+
+Rel(主站商家, 商家后台, "Uses", "HTTPS")
+Rel(有赞云商家, 商家后台, "Uses", "HTTPS")
+Rel(销售, 运营后台, "Uses", "HTTPS")
+Rel(财务, 运营后台, "Uses", "HTTPS")
+Rel(商家后台, 商业化前台系统, "Uses", "HTTP/Dubbo")
+Rel(运营后台, 商业化前台系统, "Uses", "HTTP/Dubbo")
+
+Rel_L(商业化前台系统, CRM系统, "订单消息", "NSQ")
+Rel_R(商业化前台系统, 财务系统, "订单消息", "NSQ")
+Rel(商业化前台系统, 系统基础设施, "Uses")
+@enduml
