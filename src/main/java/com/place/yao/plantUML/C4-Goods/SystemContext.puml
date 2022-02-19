@@ -1,29 +1,56 @@
 @startuml SystemContext
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
 
-
-title 商品系统视图-SYSTEM CONTEXT
+title 商品系统容器图-CONTAINER
 LAYOUT_WITH_LEGEND()
 
-Person(主站商家, "主站商家", "")
-Person(有赞云商家, "有赞云商家", "")
-Person(销售, "销售", "")
-Person(财务, "财务", "")
+System_Boundary(B1, "商品编辑") {
+Person(B1技术, "技术", "")
+Person(B1产品, "产品", "")
+Person(B1有赞云开发者, "有赞云开发者", "分为 有赞商家 和 服务商")
 
-System(商品系统, "商品系统", "允许商家、销售或财务查看商品相关的配置数据")
+System(B1应用市场, "应用市场", "DIY-YOUZAN-YUN")
+System(B1运营后台, "运营后台", "BIZ-CONSOLE")
+}
+
+System_Boundary(B2, "商品查询") {
+Person(B2主站商家, "主站商家", "")
+Person(B2有赞云商家, "有赞云商家", "")
+Person(B2技术, "技术", "")
+Person(B2产品, "产品", "")
+Person(B2销售, "销售", "")
+Person(B2财务, "财务", "")
+
+System(B2商家后台, "商家后台", "WSC-PC-SUBSCRIBE")
+System(B2运营后台, "运营后台", "BIZ-CONSOLE")
+}
+
+System(商业化前台系统, "商业化前台系统", "[YOP]")
+System(商业化商品系统, "商业化商品系统", "[YCM-GOODS]")
 System_Ext(CRM系统, "CRM系统", "商家订购的业绩计算")
 System_Ext(财务系统, "财务系统", "商家订购的返佣计算")
 ContainerDb(系统基础设施, "系统基础设施", "MySQL/KVDS","存储所有的商品数据，包括软件、插件及套餐等。")
 
-Rel(主站商家, 商品系统, "Uses")
-Rel(有赞云商家, 商品系统, "Uses")
-Rel(销售, 商品系统, "Uses")
-Rel(财务, 商品系统, "Uses")
-Rel_Back(销售, CRM系统, "业绩数据")
-Rel_Back(财务, 财务系统, "返佣信息")
 
-Rel_L(商品系统, CRM系统, "订单消息", "NSQ")
-Rel_R(商品系统, 财务系统, "订单消息", "NSQ")
-Rel(商品系统, 系统基础设施, "Uses")
+Rel(B1技术, B1运营后台, "新建/编辑商品", "DUBBO")
+Rel(B1产品, B1运营后台, "新建/编辑商品", "DUBBO")
+Rel(B1有赞云开发者, B1应用市场, "新建/编辑有赞云商品", "HTTPS")
+Rel(B1应用市场, 商业化前台系统, "Uses", "HTTP/DUBBO")
+Rel(B1运营后台, 商业化前台系统, "Uses", "HTTP/DUBBO")
+Rel(商业化前台系统, 商业化商品系统, "Uses", "DUBBO")
 
+
+Rel(B2主站商家, B2商家后台, "浏览商品信息", "HTTPS")
+Rel(B2有赞云商家, B2商家后台, "浏览商品信息", "HTTPS")
+Rel(B2技术, B2运营后台, "查询商品", "HTTP/Dubbo")
+Rel(B2产品, B2运营后台, "查询商品", "HTTP/Dubbo")
+Rel(B2销售, B2运营后台, "查询商品", "HTTP/Dubbo")
+Rel(B2财务, B2运营后台, "查询商品", "HTTP/Dubbo")
+Rel(B2商家后台, 商业化前台系统, "Uses", "HTTP/Dubbo")
+Rel(B2运营后台, 商业化前台系统, "Uses", "HTTP/Dubbo")
+
+
+Rel_L(商业化前台系统, CRM系统, "订单消息", "NSQ")
+Rel_R(商业化前台系统, 财务系统, "订单消息", "NSQ")
+Rel(商业化前台系统, 系统基础设施, "Uses")
 @enduml
