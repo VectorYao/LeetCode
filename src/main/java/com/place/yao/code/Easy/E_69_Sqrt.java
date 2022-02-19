@@ -7,7 +7,7 @@ package com.place.yao.code.Easy;
  **/
 public class E_69_Sqrt {
     public static void main(String[] args) {
-        int x = 3;
+        int x = 12;
         System.out.println((int) binarySearch(x, 0, x));
     }
 

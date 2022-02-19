@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d767f1-745b-41b2-ab3d-2c48015256e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/vectoryao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/vectoryao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_69_Sqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_69_Sqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/place/yao/plantUML/C4-Goods/Container.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/plantUML/C4-Goods/Container.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/place/yao/plantUML/C4-Goods/SystemContext.puml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/plantUML/C4-Goods/SystemContext.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,6 +203,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -356,6 +352,7 @@
       <workItem from="1619596061321" duration="67000" />
       <workItem from="1622000411416" duration="584000" />
       <workItem from="1645102769975" duration="1337000" />
+      <workItem from="1645243031083" duration="752000" />
     </task>
     <servers />
   </component>
@@ -407,7 +404,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/E_69_Sqrt.java</url>
-          <line>26</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
