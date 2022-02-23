@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d767f1-745b-41b2-ab3d-2c48015256e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/M_200_NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_133_CloneGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Easy/M_200_NumberOfIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_200_NumberOfIslands.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,27 +221,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/place/yao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M_200_NumberOfIslands">
-    <configuration name="E_414_ThirdMaximumNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Easy.E_414_ThirdMaximumNumber" />
-      <module name="praticePlace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="recording" autostart="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.M_133_CloneGraph">
     <configuration name="E_448_FindDisappearedNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Easy.E_448_FindDisappearedNumbers" />
       <module name="praticePlace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Easy.*" />
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,7 +241,7 @@
       <module name="praticePlace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Easy.*" />
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,7 +255,7 @@
       <module name="praticePlace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Easy.*" />
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,12 +264,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M_200_NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Easy.M_200_NumberOfIslands" />
+    <configuration name="M_133_CloneGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_133_CloneGraph" />
       <module name="praticePlace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Easy.*" />
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M_200_NumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_200_NumberOfIslands" />
+      <module name="praticePlace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M_133_CloneGraph" />
         <item itemvalue="Application.M_200_NumberOfIslands" />
         <item itemvalue="Application.E_69_Sqrt" />
         <item itemvalue="Application.E_448_FindDisappearedNumbers" />
         <item itemvalue="Application.E_509_FibonacciNumber" />
-        <item itemvalue="Application.E_414_ThirdMaximumNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +352,7 @@
       <workItem from="1619596061321" duration="67000" />
       <workItem from="1622000411416" duration="584000" />
       <workItem from="1645102769975" duration="1337000" />
-      <workItem from="1645243031083" duration="4086000" />
+      <workItem from="1645243031083" duration="9255000" />
     </task>
     <servers />
   </component>
@@ -419,6 +419,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="list.indexOf(node)" />
+        <watch expression="list.contains(node)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

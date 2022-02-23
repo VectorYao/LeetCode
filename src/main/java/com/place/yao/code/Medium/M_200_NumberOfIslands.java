@@ -1,4 +1,4 @@
-package com.place.yao.code.Easy;
+package com.place.yao.code.Medium;
 
 /**
  * @Description 岛屿的数量 (https://leetcode.com/problems/number-of-islands/)
