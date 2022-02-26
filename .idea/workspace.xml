@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d767f1-745b-41b2-ab3d-2c48015256e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_148_SortList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_165_CompareVersionNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_17_LetterCombinationsOfPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_347_TopKFrequentElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_454_4SumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_5_LongestPalindromicSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -223,59 +225,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/place/yao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M_165_CompareVersionNumbers">
-    <configuration name="E_387_FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Easy.E_387_FirstUniqueCharacter" />
-      <module name="praticePlace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E_412_FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Easy.E_412_FizzBuzz" />
-      <module name="praticePlace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M_133_CloneGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_133_CloneGraph" />
-      <module name="praticePlace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M_148_SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_148_SortList" />
-      <module name="praticePlace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.M_17_LetterCombinationsOfPhoneNumber">
     <configuration name="M_165_CompareVersionNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_165_CompareVersionNumbers" />
       <module name="praticePlace" />
@@ -289,13 +239,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="M_17_LetterCombinationsOfPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_17_LetterCombinationsOfPhoneNumber" />
+      <module name="praticePlace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M_347_TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_347_TopKFrequentElements" />
+      <module name="praticePlace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M_454_4SumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_454_4SumII" />
+      <module name="praticePlace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="M_5_LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_5_LongestPalindromicSubstring" />
+      <module name="praticePlace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M_17_LetterCombinationsOfPhoneNumber" />
+        <item itemvalue="Application.M_5_LongestPalindromicSubstring" />
+        <item itemvalue="Application.M_347_TopKFrequentElements" />
+        <item itemvalue="Application.M_454_4SumII" />
         <item itemvalue="Application.M_165_CompareVersionNumbers" />
-        <item itemvalue="Application.M_148_SortList" />
-        <item itemvalue="Application.M_133_CloneGraph" />
-        <item itemvalue="Application.E_412_FizzBuzz" />
-        <item itemvalue="Application.E_387_FirstUniqueCharacter" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +353,9 @@
       <workItem from="1619596061321" duration="67000" />
       <workItem from="1622000411416" duration="584000" />
       <workItem from="1645102769975" duration="1337000" />
-      <workItem from="1645243031083" duration="22990000" />
+      <workItem from="1645243031083" duration="23878000" />
+      <workItem from="1645782230895" duration="2516000" />
+      <workItem from="1645785183426" duration="4795000" />
     </task>
     <servers />
   </component>
@@ -423,12 +427,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="list.indexOf(node)" />
-        <watch expression="list.contains(node)" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
