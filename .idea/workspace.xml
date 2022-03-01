@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d767f1-745b-41b2-ab3d-2c48015256e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_131_PalindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_287_FindDuplicateNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_208_ImplementTriePrefixTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_341_FlattenNestedListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_384_ShuffleArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +227,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/place/yao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M_287_FindDuplicateNumber">
+  <component name="RunManager" selected="Application.M_208_ImplementTriePrefixTree">
     <configuration name="M_131_PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_131_PalindromePartitioning" />
       <module name="praticePlace" />
@@ -240,8 +241,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M_287_FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_287_FindDuplicateNumber" />
+    <configuration name="M_208_ImplementTriePrefixTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_208_ImplementTriePrefixTree" />
       <module name="praticePlace" />
       <extension name="coverage">
         <pattern>
@@ -253,8 +254,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M_289_GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_289_GameOfLife" />
+    <configuration name="M_287_FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_287_FindDuplicateNumber" />
       <module name="praticePlace" />
       <extension name="coverage">
         <pattern>
@@ -294,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M_208_ImplementTriePrefixTree" />
         <item itemvalue="Application.M_287_FindDuplicateNumber" />
         <item itemvalue="Application.M_131_PalindromePartitioning" />
         <item itemvalue="Application.M_378_KthSmallestElementSortedMatrix" />
         <item itemvalue="Application.M_328_OddEvenLinkedList" />
-        <item itemvalue="Application.M_289_GameOfLife" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +357,7 @@
       <workItem from="1645102769975" duration="1337000" />
       <workItem from="1645243031083" duration="23878000" />
       <workItem from="1645782230895" duration="2516000" />
-      <workItem from="1645785183426" duration="21504000" />
+      <workItem from="1645785183426" duration="26228000" />
     </task>
     <servers />
   </component>
