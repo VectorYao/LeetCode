@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94d767f1-745b-41b2-ab3d-2c48015256e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_208_ImplementTriePrefixTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_341_FlattenNestedListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_384_ShuffleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_105_ConstructBinaryTreePreorderInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_279_PerfectSquares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_384_ShuffleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/place/yao/code/Medium/M_384_ShuffleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +227,20 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/place/yao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.M_208_ImplementTriePrefixTree">
+  <component name="RunManager" selected="Application.M_105_ConstructBinaryTreePreorderInorderTraversal">
+    <configuration name="M_105_ConstructBinaryTreePreorderInorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_105_ConstructBinaryTreePreorderInorderTraversal" />
+      <module name="praticePlace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="M_131_PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_131_PalindromePartitioning" />
       <module name="praticePlace" />
@@ -267,21 +280,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="M_328_OddEvenLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_328_OddEvenLinkedList" />
-      <module name="praticePlace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.place.yao.code.Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="M_378_KthSmallestElementSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_378_KthSmallestElementSortedMatrix" />
+    <configuration name="M_384_ShuffleArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.place.yao.code.Medium.M_384_ShuffleArray" />
       <module name="praticePlace" />
       <extension name="coverage">
         <pattern>
@@ -295,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M_105_ConstructBinaryTreePreorderInorderTraversal" />
+        <item itemvalue="Application.M_384_ShuffleArray" />
         <item itemvalue="Application.M_208_ImplementTriePrefixTree" />
         <item itemvalue="Application.M_287_FindDuplicateNumber" />
         <item itemvalue="Application.M_131_PalindromePartitioning" />
-        <item itemvalue="Application.M_378_KthSmallestElementSortedMatrix" />
-        <item itemvalue="Application.M_328_OddEvenLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +357,7 @@
       <workItem from="1645102769975" duration="1337000" />
       <workItem from="1645243031083" duration="23878000" />
       <workItem from="1645782230895" duration="2516000" />
-      <workItem from="1645785183426" duration="26228000" />
+      <workItem from="1645785183426" duration="30148000" />
     </task>
     <servers />
   </component>
