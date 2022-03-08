@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="praticePlace" />
+        <module name="com.place.yao" />
       </profile>
     </annotationProcessing>
   </component>
